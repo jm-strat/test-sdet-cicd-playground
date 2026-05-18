@@ -4,7 +4,7 @@ const BASE_URL = process.env.BASE_URL ?? 'https://cdn.stratpoint.io/training-202
 
 test('landing page has correct title', async ({ page }) => {
   await page.goto(BASE_URL);
-  await expect(page).toHaveTitle(/Playwright Training Ground/);
+  await expect(page).toHaveTitle(/FORCETESTERRORINTHEREPORT/);
 });
 
 test('valid login credentials shows success message', async ({ page }) => {
