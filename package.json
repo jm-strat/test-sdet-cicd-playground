@@ -1,0 +1,25 @@
+{
+  "name": "test-sdet-cicd-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jm-strat/test-sdet-cicd-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jm-strat/test-sdet-cicd-playground/issues"
+  },
+  "homepage": "https://github.com/jm-strat/test-sdet-cicd-playground#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.0"
+  }
+}
