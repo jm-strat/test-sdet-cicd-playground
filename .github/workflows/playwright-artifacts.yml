@@ -1,9 +1,9 @@
 name: playwright artifacts
 on:
   push:
-    branches: [gate]
+    branches: [artifacts]
   pull_request:
-    branches: [gate]
+    branches: [artifacts]
   workflow_dispatch:
 
 jobs:
