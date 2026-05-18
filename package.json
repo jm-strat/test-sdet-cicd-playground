@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,10 @@
   "homepage": "https://github.com/jm-strat/test-sdet-cicd-playground#readme",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.9.0"
+    "@types/node": "^25.9.0",
+    "eslint": "^10.4.0",
+    "eslint-plugin-playwright": "^2.10.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.4"
   }
 }
