@@ -1,12 +1,10 @@
 import { test, expect } from '@playwright/test';
 
-const hello = 'world';
-
 const BASE_URL = process.env.BASE_URL ?? 'https://cdn.stratpoint.io/training-2026/playwright-training-site.html';
 
 test('landing page has correct title', async ({ page }) => {
   await page.goto(BASE_URL);
-  await expect(page).toHaveTitle(/Playwright Training Ground/);
+  await expect(page).toHaveTitle(/THISDOESNOTEXISTS/);
 });
 
 test('valid login credentials shows success message', async ({ page }) => {
