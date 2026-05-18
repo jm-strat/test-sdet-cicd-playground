@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
 
+const hello = 'world';
+
 const BASE_URL = process.env.BASE_URL ?? 'https://cdn.stratpoint.io/training-2026/playwright-training-site.html';
 
 test('landing page has correct title', async ({ page }) => {
